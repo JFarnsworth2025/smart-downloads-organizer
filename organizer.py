@@ -3,7 +3,7 @@ import shutil
 from config import FILE_CATEGORIES
 
 
-downloads_folder = Path.home() / "Downloads" / "Practice"
+downloads_folder = Path.home() / "Downloads"
 
 def organize_downloads():
     for file in downloads_folder.iterdir(): 
